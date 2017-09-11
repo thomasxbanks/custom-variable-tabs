@@ -113,6 +113,15 @@ article:nth-of-type(4),
   --bgcol-active-light: lightgreen;
   --fontcol-active: white;
 }
+.tabbed-content article h2 {
+  text-align: center;
+  text-transform: uppercase;
+}
+.tabbed-content article h2 .material-icons{
+  display: block;
+  font-size: 3rem;
+  margin: 1rem auto;
+}
 
 .is-js .tabbed-content article h2 {
   display: none;
