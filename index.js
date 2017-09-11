@@ -1,3 +1,7 @@
+'use strict'
+
+document.documentElement.classList.add('is-js')
+
 const tabNavs = document.querySelectorAll('.tab-nav')
 const tabs = document.querySelectorAll('.tabbed-content article')
 tabNavs.forEach((tabNav) => {
